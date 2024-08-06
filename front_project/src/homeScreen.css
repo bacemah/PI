@@ -1,0 +1,38 @@
+.header{
+    margin: 1px;
+    padding-top: 20px;
+    width: 100vw;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+.logobox {
+    padding-left: 100px;
+}
+
+
+.main{
+    padding-top: 80px;
+}
+
+.footer{
+    margin-top: 10px;
+}
+
+.footerIcons {
+    display: flex;
+    justify-content: center;
+
+}
