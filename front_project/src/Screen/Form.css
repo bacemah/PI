@@ -1,0 +1,25 @@
+.formBox {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.firstSec {
+    display : flex ;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+
+.textArea{
+    display: flex;
+    justify-content: center;
+}
+
+.Buttons{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}

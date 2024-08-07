@@ -10,6 +10,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
+import FormScreen from "./Screen/FormScreen";
 
 
 
@@ -20,7 +21,7 @@ const HomeScreen = ()=>{
         <header className="header">
             <nav className="nav">
                 <div className="logobox">
-                    <img src={logo} height={'30px'} width={'100px'}/>
+                    <img src={logo} height={'30px'} width={'100px'} alt="logo"/>
                 </div>
                 <navbar className="navBar">
                     <NavBarItem  name="Acceuil"/>
@@ -107,23 +108,7 @@ const HomeScreen = ()=>{
                 </Accordion>
             </div>
             <div>
-                <Accordion defaultExpanded>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel3-content"
-                        id="panel3-header"
-                    >
-                    Accordion Actions
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
-                    </AccordionDetails>
-                    <AccordionActions>
-                        <Button>Cancel</Button>
-                        <Button>Agree</Button>
-                    </AccordionActions>
-                </Accordion>
+                <FormScreen />
             </div>
 
         </main>
