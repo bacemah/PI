@@ -1,0 +1,24 @@
+.header{
+    margin: 1px;
+    padding-top: 20px;
+    width: 100vw;
+    background-color: #f4f6f6;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+.logobox {
+    padding-left: 100px;
+}
